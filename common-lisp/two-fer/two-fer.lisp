@@ -4,4 +4,7 @@
   (:export #:twofer))
 (in-package #:two-fer)
 
-(defun twofer (name))
+
+(defun name-decider (name) (if (not name) "you" name))
+
+(defun twofer (name)  )
