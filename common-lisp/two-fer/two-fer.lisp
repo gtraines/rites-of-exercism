@@ -7,4 +7,5 @@
 
 (defun name-decider (name) (if (not name) "you" name))
 
-(defun twofer (name)  )
+(defun twofer (name) (concatenate 'string "One for " (name-decider name) ", one for me."))
+
